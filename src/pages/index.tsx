@@ -1,11 +1,15 @@
-import styles from '../styles/Home.module.css'
+import Layout from '../components/Layout'
 
 export default function Home() {
   return (
-    <div className='bg-gradient-to-r from-purple-500 to-blue-600'>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <div className={`
+      flex justify-center items-center h-screen
+      bg-gradient-to-r from-blue-500 to-purple-500
+      text-white
+    `}>
+      <Layout titulo="Cadastro Simples">
+        <span>Conteudo</span>
+      </Layout>
     </div>
   )
 }
