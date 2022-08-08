@@ -5,3 +5,4 @@ npm install --save-dev typescript @types/react @types/node typescript
 obs: adicionado manualmente no tsconfig: "moduleResolution": "node", e atualizado para ES2015
  - ícones obtidos em:
  https://heroicons.com/
+ - Adicionado em tailwind.config safelist para garantir o carregamento das classes citadas em produção
