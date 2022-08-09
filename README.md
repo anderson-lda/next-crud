@@ -6,3 +6,5 @@ obs: adicionado manualmente no tsconfig: "moduleResolution": "node", e atualizad
  - ícones obtidos em:
  https://heroicons.com/
  - Adicionado em tailwind.config safelist para garantir o carregamento das classes citadas em produção
+ - Instalado package do Firebase: npm i firebase@8.8.0
+ obs: configurações em .env.local, armazenado localmente
